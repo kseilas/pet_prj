@@ -1,0 +1,25 @@
+[H[2J----------------------------------------------------------------------
+ CPU Model             : [0;31;36mIntel(R) Xeon(R) Gold 6240R CPU @ 2.40GHz[0m
+ CPU Cores             : [0;31;36m96[0m
+ CPU Frequency         : [0;31;36m1000.000 MHz[0m
+ CPU Cache             : [0;31;36m36608 KB[0m
+ Total Disk            : [0;31;36m330.0 GB (214.0 GB Used)[0m
+ Total Mem             : [0;31;36m644432 MB (218626 MB Used)[0m
+ Total Swap            : [0;31;36m0 MB (0 MB Used)[0m
+ System uptime         : [0;31;36m114 days, 2 hour 6 min[0m
+ Load average          : [0;31;36m17,73, 18,31, 18,82[0m
+ OS                    : [0;31;36mUbuntu precise (12.04.5[0m
+ Arch                  : [0;31;36mx86_64 (64 Bit)[0m
+ Kernel                : [0;31;36m4.9.255-1-beget-acl[0m
+ TCP CC                : [0;31;36m[0m
+ Virtualization        : [0;31;36mDedicated[0m
+ Organization          : [0;31;36mAS198610 Beget LLC[0m
+ Location              : [0;31;36mSaint Petersburg / RU[0m
+ Region                : [0;31;36mSt.-Petersburg[0m
+----------------------------------------------------------------------
+ I/O Speed(1st run)    : [0;31;33m2 GB/s[0m
+ I/O Speed(2nd run)    : [0;31;33m3 GB/s[0m
+ I/O Speed(3rd run)    : [0;31;33m2 GB/s[0m
+ Average I/O speed     : [0;31;33m2389.3 MB/s[0m
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency     
