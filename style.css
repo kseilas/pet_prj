@@ -1075,3 +1075,11 @@ hr {
 .copyright span {
     color: #f38181;
 }
+
+.copyright__link {
+    text-decoration: none;
+}
+
+.copyright__link:hover {
+    text-decoration: underline;
+}
