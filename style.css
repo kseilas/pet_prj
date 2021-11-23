@@ -30,6 +30,12 @@ hr {
   background-color: #e5e5e5;
 }
 
+/* Page */
+
+.page {
+  overflow: hidden;
+}
+
 /* Container */
 
 .container {
@@ -555,6 +561,9 @@ hr {
 }
 
 .reviews__photo {
+  display: block;
+  width: 210px;
+  height: 210px;
   position: absolute;
   border-radius: 50%;
   top: 0;
@@ -654,6 +663,17 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
+}
+
+.logo__item {
+  padding: 0 15px;
+}
+
+.logo__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Works*/
@@ -770,6 +790,7 @@ hr {
 .blog {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .blog__item {
@@ -895,6 +916,12 @@ hr {
   padding-bottom: 65px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.footer__col {
+  padding: 0 15px;
 }
 
 .footer__col--first {
@@ -910,6 +937,9 @@ hr {
 }
 
 .footer__logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 30px;
   color: #cccccc;
   font-size: 46px;
@@ -1007,12 +1037,14 @@ hr {
 }
 
 .instagram__item {
-  width: 32.3333%;
+  width: 33%;
   border-bottom: 1px solid #fff;
 }
 
 .instagram__item img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Subscribe */
@@ -1105,6 +1137,12 @@ hr {
   .intro__suptitle {
     font-size: 52px;
   }
+
+  /* REVIEWS */
+
+  .reviews__text {
+    font-size: 20px;
+  }
 }
 
 /* MEDIA 990*/
@@ -1150,6 +1188,60 @@ hr {
     .services__item--border{
         border-bottom: 0;
     }
+
+    /* REVIEWS */
+    
+    .reviews {
+      padding: 0 60px;
+    }
+
+    .reviews__item {
+      padding-left: 175px;
+    }
+
+    .reviews__photo {
+      width: 150px;
+      height: 150px;
+    }
+
+    /* CLIENTS */
+
+    .clients {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .clients__item {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .clients__item:last-child {
+      margin-bottom: 0;
+    }
+    
+    /* FOOTER */
+
+    .footer__col--first {
+      width: 100%;
+    }
+
+    .footer__col--second, .footer__col--third {
+      width: 50%;
+    }
+
+    /* INSTAGRAM */
+
+    .instagram {
+      justify-content: flex-start;
+    }
+
+    .instagram__item {
+      width: auto;
+      border-right: 1px solid white;
+    }
+    
+    
 }
 
 /* MEDIA 770*/
@@ -1232,6 +1324,60 @@ hr {
       width: 100%;
   }
 
+  /* REVIEWS */
+
+  .reviews__item{
+    padding-left: 0;
+  }
+
+  .reviews__photo {
+    position: static;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .reviews__text {
+    font-size: 16px;
+  }
+
+  .reviews__author {
+    font-size: 20px;
+  }
+
+  /* WORKS */
+
+  .works {
+    flex-wrap: wrap;
+  }
+
+  .works__col {
+    flex: none;
+    width: 50%;
+  }
+
+  /* BLOG */
+
+  .blog {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .blog__item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .blog__item:last-child {
+    margin-bottom: 0;
+  }
+
+  /* FOOTER */
+
+  .footer__col--first,
+   .footer__col--second,
+    .footer__col--third {
+      width: 100%;
+  } 
 
 }
 
@@ -1295,6 +1441,94 @@ hr {
     width: 180px;
     bottom: -50px;
     right: -80px;
+  }
+
+  /* REVIEWS */
+
+  .reviews {
+    padding: 0;
+  }
+
+  .reviews__button {
+    top: 19%;
+  }
+
+  /* LOGO */
+
+  .logo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo__item {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .logo__img {
+    margin: 0 auto;
+  } 
+
+  /* WORKS */
+
+  .works__col { 
+    width: 100%;
+  }
+
+  /* CLIENTS */
+
+  .clients__photo {
+    position: static;
+  }
+
+  .clients__item {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .clients__text:before {
+    margin: 15px auto;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer__logo {
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* SUBSCRIBE */
+
+  .subscribe {
+    flex-wrap: wrap;
+    max-width: none;
+  }
+
+  .subscribe__input {
+    border-right: 1px solid #e7e7e7;
+    margin-bottom: 10px;
+  }
+
+  .subscribe__button,
+  .subscribe__input {
+    width: 100%;
+  }
+
+  /* BLOG */
+
+  .blogs__img {
+    width: 80px;
+    height: 50px;
+  }
+
+  .blogs__title {
+    font-size: 10px;
   }
 }
 
